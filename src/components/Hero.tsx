@@ -40,7 +40,7 @@ export default function Hero() {
           {/* --- WADAH FOTO (Center Core) --- */}
           <div className="w-[260px] h-[260px] md:w-[410px] md:h-[410px] bg-neutral-800 rounded-full flex items-center justify-center relative overflow-hidden shadow-2xl border-2 border-neutral-700 z-10">
              <Image 
-                src="/images/profile.jpg" // Pastikan nama file benar
+                src="/images/profile 2.jpg" // Pastikan nama file benar
                 alt="Alhi" 
                 fill 
                 className="object-cover" 
