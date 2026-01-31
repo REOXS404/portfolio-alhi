@@ -6,7 +6,7 @@ import { FaDownload } from 'react-icons/fa6' // Pastikan ini di-import
 
 export default function Hero() {
   return (
-    <section className="min-h-screen flex items-center justify-center px-6 pt-28 md:pt-0 md:px-12 bg-[#121212] overflow-hidden relative">
+    <section className="min-h-screen flex items-center justify-center px-6 pt-28 md:pt-0 md:px-12 overflow-hidden relative">
       
       {/* Container Utama */}
       <div className="max-w-7xl w-full grid grid-cols-1 md:grid-cols-2 gap-12 items-center z-10">
