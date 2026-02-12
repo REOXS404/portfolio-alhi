@@ -89,7 +89,7 @@ export default function Hero() {
             transition={{ delay: 0.8 }}
             className="inline-flex items-center gap-3 mt-4 px-8 py-3 bg-purple-600 hover:bg-purple-700 text-white font-bold rounded-lg shadow-[0_0_20px_rgba(147,51,234,0.5)] transition-all cursor-pointer group"
           >
-            <span>Download CV</span>
+            <span>Download my CV</span>
             <FaDownload className="group-hover:translate-y-1 transition-transform" />
           </motion.a>
         </div>
