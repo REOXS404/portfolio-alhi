@@ -1,5 +1,6 @@
 'use client'
 import { motion } from 'framer-motion'
+import { FaGithub } from 'react-icons/fa'
 import { FaLinkedin, FaInstagram, FaWhatsapp, FaEnvelope, FaLink } from 'react-icons/fa6' 
 
 // --- ISI DATA SOSMED LU DI SINI ---
@@ -43,6 +44,14 @@ const socialLinks = [
     color: "hover:text-purple-500",
     border: "hover:border-purple-500/50",
     desc: "Formal inquiries"
+  },
+  {
+    name: "GitHub",
+    icon: <FaGithub className="w-8 h-8" />,
+    url: "https://github.com/REOXS404", // <--- Ganti URL
+    color: "hover:text-white-500",
+    border: "hover:border-white-500/50",
+    desc: "Repository & project"
   }
 ]
 
